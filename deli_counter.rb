@@ -5,6 +5,7 @@ def line(x)
     puts "The line is currently empty."
   else
     line = "The line is currently:"
-    x.each_with_index(1) do |person, i
+    x.each_with_index(1) do |person, i|
+    line 
     
 end
