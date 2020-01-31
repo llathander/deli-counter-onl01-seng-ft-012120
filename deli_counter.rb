@@ -4,6 +4,6 @@ def line(x)
   if x.empty?
     puts "The line is currently empty."
   else
-    line =
+    line = "The line is currently"
     
 end
