@@ -14,5 +14,5 @@ end
 
 def take_a_number(x, y)
   x << y 
-puts "Welcome #{y}, you are now #{x} in line."
+puts "Welcome #{y}, you are now #{x.length} in line."
 end
