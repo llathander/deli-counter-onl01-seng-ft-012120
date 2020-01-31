@@ -6,6 +6,6 @@ def line(x)
   else
     line = "The line is currently:"
     x.each_with_index(1) do |person, i|
-    line << " #{i},"
+    line << " #{i}. #{person}"
     
 end
