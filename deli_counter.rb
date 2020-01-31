@@ -9,5 +9,5 @@ def line(x)
     line << " #{i}. #{person}"
   end
   puts line
-end
+  end
 end
