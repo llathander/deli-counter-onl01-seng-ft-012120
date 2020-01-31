@@ -18,4 +18,10 @@ def take_a_number(x, y)
 end
 
 def now_serving(x)
-  
+  if x.empty?
+    puts "There is nobody waiting to be served!"
+  else
+    puts "Currently serving #{x.first}."
+    x.shift
+  end
+end
