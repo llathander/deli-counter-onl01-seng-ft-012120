@@ -1,3 +1,4 @@
 katz_deli = []
 
-def line
+def line(x)
+  if x.empty? 
