@@ -14,7 +14,7 @@ end
 
 def take_a_number(x, y)
   x << y 
-  puts "Welcome, #{y}. you are number #{x.length} in line."
+  puts "Welcome, #{y}. You are number #{x.length} in line."
 end
 
 def now_serving(x)
